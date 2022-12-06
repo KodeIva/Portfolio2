@@ -17,8 +17,8 @@ The Portfolio project I created is to represent myself to the future employers. 
 
 ## Links
 
-- Solution URL: [Solution URL here](https://kodeiva.github.io/Portfolio2/)
-- Live Site URL: [Live site URL here](https://github.com/KodeIva/Portfolio2)
+- Solution URL: [Solution URL here](https://github.com/KodeIva/Portfolio2)
+- Live Site URL: [Live site URL here](https://kodeiva.github.io/Portfolio2/)
 
 
 ## Codes used
