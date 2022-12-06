@@ -8,11 +8,11 @@ The Portfolio project I created is to represent myself to the future employers. 
 
 ### Wide Screen
 
-![](./screenshot1.jpg)
+![](./images/screenshot1.jpg)
 
 ### Mobile Screen
 
-![](./screenshot1.jpg)
+![](./images/screenshot1.jpg)
 
 
 ## Links
