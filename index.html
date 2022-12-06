@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en-gb">
-
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,12 +12,13 @@
  <!-- main logo / nav -->
  <header>
   <h1>Ivelina</h1>
+  <img src="./images/avatar.png" alt="Picture of a girl with brown hair ">
   <nav>
    <ul>
-    <li><a href="#">About Me</a></li>
-    <li><a href="#">Work</a></li>
-    <li><a href="#">Contact Me</a></li>
-    <li><a href="#">Resume</a></li>
+    <li><a href="#about">About Me</a></li>
+    <li><a href="#work">Work</a></li>
+    <li><a href="#contact">Contact Me</a></li>
+    <li><a href="#work">Resume</a></li>
    </ul>
   </nav>
  </header>
@@ -26,30 +26,85 @@
  <!-- hero banner -->
  <section class="hero-banner">
   <div>
-   <h2>Cool subtitle here!</h2>
-   <img src="hero.png" alt="">
+   <h2>KodeIva Web Development!</h2>
+   <img src="./images/hero-4.jpg" alt="Picture with binary codes">
   </div>
  </section>
 
  <main class="page-wrapper">
   <!-- about me -->
   <section class="page-section" id="about">
-   <h2>About Me</h2>
+   <div class="section-header">
+    <h2>About Me</h2>
+   </div>
+
+   <article class="resume">
+    <p>I am an enthusiastic, self-taught, motivated Web Developer in development, who is looking for a career change
+     from aviation and willing to become a professional in a digital world. After realising my passion about creating
+     things on my own and making it work made me really driven to get involved into the programming environment.</p>
+    <br>
+    <p>I am keen to transform my basic knowledge into professional skills and I am looking for a position that will
+     offer opportunity to learn and continue my further development under the mentorship of professionals.</p>
+   </article>
   </section>
 
   <!-- portfolio container -->
-  <section class="page-section" id="work">
-   <h2>Work</h2>
+  <section class="page-section " id="work">
+   <div class="section-header">
+    <h2>Work</h2>
+   </div>
+   <div class="container">
+    <div id="portfolio-1">
+     <h4>Landing-Page</h4>
+     <p>HTML/CSS</p>
+     <a href="https://kodeiva.github.io/Landing-Page/" target="_blank">
+      <img src="./images/02-portfolio-1.jpg" alt="Image of landing page website"/>
+     </a>
+    </div>
+    <div id="portfolio-2">
+     <h4>Counter</h4>
+     <p>HTML/CSS/JS</p>
+     <a href="https://kodeiva.github.io/Counter/" target="_blank">
+      <img src="./images/02-portfolio-2.jpg" alt="Image of counter with three buttons in the middle for increase, reset">
+     </a>
+    </div>
+
+    <div id="portfolio-3">
+     <h4>New Cars</h4>
+     <p>HTML/CSS</p>
+     <a href="https://kodeiva.github.io/Counter/" target="_blank">
+      <img src="./images/02-portfolio-3.jpg" alt="Image with light green and pink color separated on diagonal and a small car on the right side of the photo">
+     </a>
+    </div>
+
+    <div id="portfolio-4">
+     <h4>Holidays</h4>
+     <p>HTML/CSS</p>
+     <a href="https://kodeiva.github.io/Horiseon/" target="_blank">
+      <img src="./images/02-portfolio-4.jpg" alt="Ocean, big waves and a serfing person">
+     </a>
+    </div>
+
+    <div id="horiseon">
+     <h4>Horiseon</h4>
+     <p>HTML/CSS</p>
+     <a href="https://kodeiva.github.io/Horiseon/" target="_blank">
+      <img src="./images/02-horiseon.jpg" alt="People gathered around a table solving a problem">
+     </a>
+    </div>
+   </div>
   </section>
 
   <!-- contact -->
   <section class="page-section contact" id="contact">
-   <h2>Contact Me</h2>
+   <div class="section-header">
+    <h2>Contact Me</h2>
+   </div>
    <ul>
-    <li><a href="#">078 1315 4044</a></li>
-    <li><a href="#">ivakaradjova@yahoo.co.uk</a></li>
-    <li><a href="#">GitHub</a></li>
-    <li><a href="#">LinkedIn</a></li>
+    <li><a href="tel:078-1315-4044" target="_blank">078 1315 4044</a></li>
+    <li><a href="mailto:ivakaradjova@yahoo.co.uk" target="_blank">ivakaradjova@yahoo.co.uk</a></li>
+    <li><a href="https://github.com/KodeIva" target="_blank">GitHub</a></li>
+    <li><a href="https://www.linkedin.com/in/iva-karadjova-4915572b/" target="_blank">LinkedIn</a></li>
    </ul>
   </section>
  </main>
