@@ -77,7 +77,7 @@ The Portfolio project I created is to represent myself to the future employers. 
   grid-template-areas:
   "portfolio-1 portfolio-1"
   "portfolio-2 portfolio-3"
-  "portfolio-4 run"
+  "portfolio-4 horiseon"
   ;
 }
 ```
