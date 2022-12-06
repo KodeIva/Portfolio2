@@ -12,7 +12,7 @@ The Portfolio project I created is to represent myself to the future employers. 
 
 ### Mobile Screen
 
-![](./images/screenshot1.jpg)
+![](./images/screenshot2.jpg)
 
 
 ## Links
